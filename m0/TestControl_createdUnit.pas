@@ -10,7 +10,8 @@ type TestControl_created = class(TestControl)
 
       procedure S_START(const bFirst : boolean);
       procedure S_END(const bFirst : boolean);
-      procedure S_SET_YES_OR_NO(const bFirst : boolean);
+      procedure S_HELLO_WORLD(const bFirst : boolean);
+      procedure S_SELECT_YES_OR_NO(const bFirst : boolean);
       procedure S_YES(const bFirst : boolean);
       procedure S_NO(const bFirst : boolean);
 
@@ -34,7 +35,7 @@ begin
     if bFirst=true then begin
     end;
     if HasNextState() = false then begin
-        SetNextState('S_SET_YES_OR_NO');
+        SetNextState('S_HELLO_WORLD');
     end;
     if HasNextState() = true then begin
         GoNextState();
@@ -52,13 +53,27 @@ begin
     end;
 end;
 {
-    S_SET_YES_OR_NO
-    YES/NO Select
+    S_HELLO_WORLD
 }
-procedure TestControl_created.S_SET_YES_OR_NO(const bFirst : boolean);
+procedure TestControl_created.S_HELLO_WORLD(const bFirst : boolean);
 begin
     if bFirst=true then begin
-        set_yes_or_no;
+        WriteLn('Hello World');
+    end;
+    if HasNextState() = false then begin
+        SetNextState('S_SELECT_YES_OR_NO');
+    end;
+    if HasNextState() = true then begin
+        GoNextState();
+    end;
+end;
+{
+    S_SELECT_YES_OR_NO
+}
+procedure TestControl_created.S_SELECT_YES_OR_NO(const bFirst : boolean);
+begin
+    if bFirst=true then begin
+        select_yes_no;
     end;
     br_YES('S_YES');
     br_NO('S_NO');
@@ -104,7 +119,8 @@ begin
 
   if st = 'S_START' then begin S_START(bFirst); goto end_proc;  end;
   if st = 'S_END' then begin S_END(bFirst); goto end_proc;  end;
-  if st = 'S_SET_YES_OR_NO' then begin S_SET_YES_OR_NO(bFirst); goto end_proc;  end;
+  if st = 'S_HELLO_WORLD' then begin S_HELLO_WORLD(bFirst); goto end_proc;  end;
+  if st = 'S_SELECT_YES_OR_NO' then begin S_SELECT_YES_OR_NO(bFirst); goto end_proc;  end;
   if st = 'S_YES' then begin S_YES(bFirst); goto end_proc;  end;
   if st = 'S_NO' then begin S_NO(bFirst); goto end_proc;  end;
 

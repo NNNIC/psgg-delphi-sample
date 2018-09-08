@@ -10,8 +10,8 @@ type TestControl = class(StateManager)
     fbYesNo : boolean;
     procedure br_YES(const st: string);
     procedure br_NO(const st: string);
+    procedure select_yes_no;
 
-    procedure set_yes_or_no;
 end;
 
 implementation
@@ -31,8 +31,7 @@ begin
 end;
 
 { write your code here!}
-
-procedure TestControl.set_yes_or_no;
+procedure TestControl.select_yes_no;
 var i : integer;
 begin
   i := MilliSecondOf( Now );
@@ -40,7 +39,6 @@ begin
   WriteLn(i);
 
   fbYesNo := (i mod 2) = 0;
-
 end;
 
 
