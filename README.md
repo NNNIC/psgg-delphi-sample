@@ -10,7 +10,7 @@ SYN-G-GEN http://syn-g-gen.com/
 # INSTRUCTION
 
 1. Change to "playground" directory  
-   If a statemachine files exists, exec "clean.bat".  
+   If a statemachine files exists, run "clean.bat".  
 2. Execute SYN-G-GEN  
 3. Select Create New State machine  
 4. Select "Delphi" Starter kit.  
