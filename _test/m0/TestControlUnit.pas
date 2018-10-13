@@ -13,8 +13,10 @@ type TestControl = class(StateManager)
     procedure br_YES(const st: string);
     procedure br_NO(const st: string);
 
+    // [SYN-G-GEN OUTPUT START] indent(4) $/^S_/->#declare$
     procedure S_START(const bFirst : boolean);
     procedure S_END(const bFirst : boolean);
+    // [SYN-G-GEN OUTPUT END]
 
     procedure _execFunc(const st: string; bFirst : boolean); override;
 
