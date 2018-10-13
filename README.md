@@ -3,9 +3,9 @@ SYN-G-GEN  DELPHI Sample
 
 # ENVIRONMENT
 
-Windows
-Delphi 10
-SYN-G-GEN http://syn-g-gen.com/
+Windows  
+Delphi 10  
+SYN-G-GEN http://syn-g-gen.com/  
 
 # INSTRUCTION
 
