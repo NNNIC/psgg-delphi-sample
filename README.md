@@ -5,7 +5,7 @@ SYN-G-GEN  DELPHI Sample
 
 Windows
 Delphi 10
-SYN-G-GEN
+SYN-G-GEN http://syn-g-gen.com/
 
 # INSTRUCTION
 
