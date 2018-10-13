@@ -25,4 +25,4 @@ clean.bat -- delete files that are related with a state machine. And copy refere
 
 # Sample
 
-<img src="https://github.com/NNNIC/psgg-delphi-sample/raw/master/wiki/sample.png" width="1800px" />  
+<img src="https://raw.githubusercontent.com/NNNIC/psgg-delphi-sample/master/wiki/sample.PNG" width="1800px" />  
