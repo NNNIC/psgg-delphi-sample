@@ -1,17 +1,17 @@
 # psgg-delphi-sample
-SYN-G-GEN  DELPHI Sample
+StateGo DELPHI Sample
 
 # ENVIRONMENT
 
 Windows  
 Delphi 10  
-SYN-G-GEN http://syn-g-gen.com/  
+StateGo https://statego.programanic.com  
 
 # INSTRUCTION
 
 1. Change to "playground" directory  
    If a statemachine files exists, run "clean.bat".  
-2. Execute SYN-G-GEN  
+2. Execute StateGo  
 3. Select Create New State machine  
 4. Select "Delphi" Starter kit.  
 5. Set "TestControl" as state machine name  
