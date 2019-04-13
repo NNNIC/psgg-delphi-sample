@@ -5,7 +5,7 @@ StateGo DELPHI Sample
 
 Windows  
 Delphi 10  
-StateGo https://statego.programanic.com  
+[StateGo](https://statego.programanic.com/index-e.html)
 
 # INSTRUCTION
 
