@@ -16,5 +16,4 @@ Windows 10
 5. Execute "Project01.exe"
 
 # Sample
-
-<img src="https://raw.githubusercontent.com/NNNIC/psgg-delphi-sample/master/wiki/sample.PNG" width="1800px" />  
+<img src="https://raw.githubusercontent.com/NNNIC/psgg-delphi-sample/master/wiki/sample2.png" width="1000px" />  
