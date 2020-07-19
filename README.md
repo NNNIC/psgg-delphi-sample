@@ -23,10 +23,11 @@ Windows 10
 
 # Sample Explanation
 |STATE| Description|
+|-|-|
 |[0001]| Output "Hello World!".|
+|[0013]| Calling the [E0001] embeded procedure.|
+|[GSB001]| Call the [SBS002] subroutine.|
+|[0012] |Preparation for using random method.|
+|[0015] Pick 0 or 1 and branch.|
+|[LOP000]|Loop 10 times. Call SBS001|
 
-[0013] Calling the [E0001] embeded procedure.
-[GSB001] Call the [SBS002] subroutine.
-[0012] Preparation for using random method.
-[0015] Pick 0 or 1 and branch.
-[LOP
