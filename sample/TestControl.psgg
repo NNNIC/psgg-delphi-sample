@@ -585,8 +585,8 @@ xls=TestControl.xlsx
 sub_src=
 gen_src=TestControlUnit.pas
 
-manager_src=StateManagerUnit.pas
-manager_dir=base
+manager_src=
+manager_dir=
 
 template_src=
 template_func=template-statefunc.txt
@@ -603,7 +603,7 @@ statemachine=TestControl
 prefix=__PREFIX__
 xlsdir=C:\Users\gea01\Documents\psgg\samples\psgg-delphi-sample\playground\doc
 gendir=C:\Users\gea01\Documents\psgg\samples\psgg-delphi-sample\playground\src
-genrdir=..\src
+genrdir=.
 incrdir=.
 
 code_output_start=[STATEGO OUTPUT START]
