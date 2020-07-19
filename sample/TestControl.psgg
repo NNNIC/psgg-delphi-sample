@@ -13,9 +13,9 @@ check_excel_writable=no
 
 sheet=state-chart
 nameid_list=,n001,n002,n019,n003,n004,n005,n01a,,n006,n007,,n008,n01e,n009,n00a,n00b,,n00c,n00d,,n00e,n00f,,n010,n011,,n012,n013,n014,,n01b,n01c,n01d,n015,n016,n017,,,,,,
-stateid_list=,,,,s0001,s0002,s0003,,,,,,,,,,,,,s0011,,s0013,,s0014,s0015,s0016,,s0017,,s0019,s001c,s001b,s001d,s001e,s001f,s0020,s0021,s0022,s0023
+stateid_list=,,,,s0001,s0002,s0003,s0024,,,,,,,,,,,,s0011,,s0013,,s0014,s0015,s0016,,s0017,,s0019,s001c,s001b,s001d,s001e,s001f,s0020,s0021,s0022,s0023
 max_name_id=30
-max_state_id=35
+max_state_id=36
 [id_name_dic]
 n001=thumbnail
 n002=state
@@ -68,6 +68,7 @@ s0020=S_0016
 s0021=S_0015
 s0022=S_0017
 s0023=S_PAS001
+s0024=C_0003
 
 
 [s0001]
@@ -343,6 +344,18 @@ The root
 n016=708,671
 n017=100036
 
+[s0024]
+n002=C_0003
+n003=StateGo Delphi Sample
+n015=@@@
+/
+(100,100)
+
+@@@
+
+n016=11,2
+n017=100037
+
 
 
 ------#======*<Guid(70C5A739-223A-457D-8AEE-1A0E2050D5AE)>*======#------
@@ -350,7 +363,7 @@ n017=100036
 sheet=config
 
 ###VARIOUS-CONTENTS-BEGIN###
-; The setting was created automatically. 2020/07/19 9:31:26
+; The setting was created automatically. 2020/07/19 10:39:30
 ; * pssgEditor version : 0.65.30181.c1f731a61c084a50af056af301b5a2c33505b45f
 psggfile=@@@
 TestControl.psgg
@@ -368,7 +381,7 @@ c_thumbnail=1
 c_contents=1
 force_display_outpin=0
 last_action=@@@
-varied,Edited a state.
+init,Saved
 @@@
 target_pathdir=@@@
 /
@@ -383,7 +396,7 @@ nodegroup_pos_list=@@@
 [{"Key":"\/","Value":{"x":100,"y":100}}]
 @@@
 fillter_state_location_list=@@@
-[{"Key":"\/","Value":[{"Key":"S_START","Value":{"x":50,"y":100}},{"Key":"S_END","Value":{"x":1230,"y":1007}},{"Key":"E_0001","Value":{"x":27,"y":250}},{"Key":"S_0001","Value":{"x":177,"y":101}},{"Key":"S_LOP000","Value":{"x":234,"y":1014}},{"Key":"S_0011","Value":{"x":557,"y":1105}},{"Key":"S_SBS001","Value":{"x":412,"y":1106}},{"Key":"S_RET001","Value":{"x":809,"y":1106}},{"Key":"E_0003","Value":{"x":15,"y":1005}},{"Key":"S_0012","Value":{"x":224,"y":503}},{"Key":"S_0013","Value":{"x":384,"y":101}},{"Key":"S_0014","Value":{"x":482,"y":350}},{"Key":"S_SBS002","Value":{"x":387,"y":350}},{"Key":"S_GSB001","Value":{"x":234,"y":350}},{"Key":"S_RET002","Value":{"x":684,"y":350}},{"Key":"S_0015","Value":{"x":228,"y":603}},{"Key":"S_0016","Value":{"x":481,"y":579}},{"Key":"S_0017","Value":{"x":483,"y":698}},{"Key":"S_PAS001","Value":{"x":708,"y":671}}]}]
+[{"Key":"\/","Value":[{"Key":"S_START","Value":{"x":50,"y":100}},{"Key":"S_END","Value":{"x":1230,"y":1007}},{"Key":"E_0001","Value":{"x":27,"y":250}},{"Key":"S_0001","Value":{"x":177,"y":101}},{"Key":"S_LOP000","Value":{"x":234,"y":1014}},{"Key":"S_0011","Value":{"x":557,"y":1105}},{"Key":"S_SBS001","Value":{"x":412,"y":1106}},{"Key":"S_RET001","Value":{"x":809,"y":1106}},{"Key":"E_0003","Value":{"x":15,"y":1005}},{"Key":"S_0012","Value":{"x":224,"y":503}},{"Key":"S_0013","Value":{"x":384,"y":101}},{"Key":"S_0014","Value":{"x":482,"y":350}},{"Key":"S_SBS002","Value":{"x":387,"y":350}},{"Key":"S_GSB001","Value":{"x":234,"y":350}},{"Key":"S_RET002","Value":{"x":684,"y":350}},{"Key":"S_0015","Value":{"x":228,"y":603}},{"Key":"S_0016","Value":{"x":481,"y":579}},{"Key":"S_0017","Value":{"x":483,"y":698}},{"Key":"S_PAS001","Value":{"x":708,"y":671}},{"Key":"C_0003","Value":{"x":11,"y":2}}]}]
 @@@
 linecolor_data=@@@
 [{"color":{"knownColor":0,"name":null,"state":2,"value":4285493103},"pattern":"BTN_BY.\\("}]

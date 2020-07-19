@@ -29,7 +29,7 @@ type TestControl = class
 
 
   // [STATEGO OUTPUT START] indent(2) $/^S_/->#declare$
-  //             psggConverterLib.dll converted from psgg-file:..\doc\TestControl.psgg
+  //             psggConverterLib.dll converted from psgg-file:TestControl.psgg
 
   protected procedure S_0001(const bFirst : boolean);
   protected procedure S_0011(const bFirst : boolean);
@@ -56,7 +56,7 @@ type TestControl = class
 
   // For declare part of E_XXXX
   // [STATEGO OUTPUT START] indent(2) $/^E_/->#embdec$
-  //             psggConverterLib.dll converted from psgg-file:..\doc\TestControl.psgg
+  //             psggConverterLib.dll converted from psgg-file:TestControl.psgg
 
   protected procedure hoge(const st: string);
   private fIndex : integer;
@@ -157,7 +157,7 @@ end;
 
 
 // [STATEGO OUTPUT START] indent(0) $/^S_/$
-//             psggConverterLib.dll converted from psgg-file:..\doc\TestControl.psgg
+//             psggConverterLib.dll converted from psgg-file:TestControl.psgg
 
 {
   S_0001
@@ -377,7 +377,7 @@ end;
 
 // For declare part of E_XXX
 // [STATEGO OUTPUT START] indent(0) $/^E_/$
-//             psggConverterLib.dll converted from psgg-file:..\doc\TestControl.psgg
+//             psggConverterLib.dll converted from psgg-file:TestControl.psgg
 
 {
   E_0001
@@ -395,7 +395,7 @@ procedure TestControl._execFunc(const st: string; const bFirst: Boolean);
 label end_proc;
 begin
     // [STATEGO OUTPUT START] indent(4) $/^S_/->#exec$
-    //             psggConverterLib.dll converted from psgg-file:..\doc\TestControl.psgg
+    //             psggConverterLib.dll converted from psgg-file:TestControl.psgg
 
     if st = 'S_0001' then begin S_0001(bFirst); goto end_proc;  end;
     if st = 'S_0011' then begin S_0011(bFirst); goto end_proc;  end;
