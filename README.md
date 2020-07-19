@@ -3,25 +3,17 @@ StateGo DELPHI Sample
 
 # ENVIRONMENT
 
-Windows  
-Delphi 10  
-[StateGo](https://statego.programanic.com/index-e.html)
+Windows 10 
+[Delphi 10.3](https://www.embarcadero.com/products/delphi)  
+[StateGo](https://statego.programanic.com/)
 
 # INSTRUCTION
 
-1. Change to "playground" directory  
-   If a statemachine files exists, run "clean.bat".  
-2. Execute StateGo  
-3. Select Create New State machine  
-4. Select "Delphi" Starter kit.  
-5. Set "TestControl" as state machine name  
-6. Set full path of "playground/doc" as doc folder.  
-7. Set full path of "playground/src" as src folder.  
-8. Open src\Project.dpr to start delphi.  
-
-# Files
-
-clean.bat -- delete files that are related with a state machine. And copy reference project file to src folder.
+1. Open sample/TestControl.psgg
+2. Push "Save and Convert" button
+3. Open sample/Project01.dpr using Delphi
+4. Build.
+5. Execute "Project01.exe"
 
 # Sample
 
