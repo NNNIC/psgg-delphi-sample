@@ -22,6 +22,7 @@ Windows 10
 <a href="https://raw.githubusercontent.com/NNNIC/psgg-delphi-sample/master/wiki/exe.png" ><img src="https://raw.githubusercontent.com/NNNIC/psgg-delphi-sample/master/wiki/exe.png" width="400px" />  </a>
 
 # Sample Explanation
+## STATEs relating the flow 
 |STATE| Description|
 |-|-|
 |[0001]| Output "Hello World!".|
@@ -30,4 +31,9 @@ Windows 10
 |[0012]|Preparation for using random method.|
 |[0015]| Pick 0 or 1 and branch.|
 |[LOP000]|Loop 10 times. Call SBS001|
-
+## STATEs not relating the flow
+|STATE| Description|
+| --- | --- |
+|[C_0003]| Comment  |
+|[E_0001]| Definition for hoge procedure |
+|[E_0003]| Declaratin for [LOP000]'s varibles. |
