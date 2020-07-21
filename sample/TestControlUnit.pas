@@ -155,7 +155,6 @@ end;
 
 // Manager Implementation #end
 
-
 // [STATEGO OUTPUT START] indent(0) $/^S_/$
 //             psggConverterLib.dll converted from psgg-file:TestControl.psgg
 
@@ -375,7 +374,7 @@ end;
 
 // [STATEGO OUTPUT END]
 
-// For declare part of E_XXX
+// For implementation part of E_XXX
 // [STATEGO OUTPUT START] indent(0) $/^E_/$
 //             psggConverterLib.dll converted from psgg-file:TestControl.psgg
 
