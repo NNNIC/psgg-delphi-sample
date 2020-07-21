@@ -18,6 +18,8 @@ Windows 10
 # Sample
 ## StateGo Chart
 <a href="https://raw.githubusercontent.com/NNNIC/psgg-delphi-sample/master/wiki/sample2.png" ><img src="https://raw.githubusercontent.com/NNNIC/psgg-delphi-sample/master/wiki/sample2.png" width="400px" />  </a>
+## Open by Delphi
+<a href="https://raw.githubusercontent.com/NNNIC/psgg-delphi-sample/master/wiki/proj.png" ><img src="https://raw.githubusercontent.com/NNNIC/psgg-delphi-sample/master/wiki/proj.png" width="400px" />  </a>
 ## Output
 <a href="https://raw.githubusercontent.com/NNNIC/psgg-delphi-sample/master/wiki/exe.png" ><img src="https://raw.githubusercontent.com/NNNIC/psgg-delphi-sample/master/wiki/exe.png" width="400px" />  </a>
 
